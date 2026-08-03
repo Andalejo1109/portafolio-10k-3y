@@ -1,5 +1,7 @@
 # Portafolio $10k en 3 Años 📈
 
+![imagen simulacion](grafica_estatica_SPYG.png)
+
 Este repositorio contiene los scripts en Python para realizar un *backtest* cuantitativo que simula la acumulación de capital mediante aportes recurrentes, utilizando el rendimiento histórico real de diversos ETFs (como SMH, SPYG, VTI, entre otros). 
 
 El objetivo principal de este código es demostrar, con datos empíricos del mercado, el efecto del interés compuesto y la constancia en la inversión frente a la simple acumulación de efectivo.
