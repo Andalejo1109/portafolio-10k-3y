@@ -10,15 +10,6 @@ El objetivo principal de este código es demostrar, con datos empíricos del mer
 * **Cálculo de Retornos:** Calcula los retornos mensuales reales y el crecimiento del portafolio asumiendo un aporte mensual fijo (ej. $200/mes).
 * **Visualización Dinámica y Estática:** Genera gráficos exportables en formato `.png` y animaciones en formato `.gif` (ideales para redes sociales o eToro) donde se compara la línea base de los aportes frente al valor real del portafolio capitalizado.
 
-## 🛠️ Requisitos e Instalación
-
-Para ejecutar este proyecto de forma local, necesitas tener Python instalado y las siguientes librerías de análisis y visualización.
-
-Puedes instalar las dependencias ejecutando:
-
-```bash
-pip install yfinance pandas matplotlib pillow
-
 ## 💻 Uso
 
 El script principal está configurado por defecto para simular aportes de $200 mensuales durante 36 meses (3 años) utilizando el ETF SMH (VanEck Semiconductor ETF).
@@ -42,3 +33,12 @@ Actualmente gestiono mi portafolio público como Popular Investor (nivel Champio
 
 # ⚠️ Disclaimer
 Este repositorio tiene fines estrictamente educativos y de demostración analítica. Los rendimientos pasados de un instrumento financiero (como los ETFs utilizados en la simulación) no son garantía de rendimientos futuros. Este código no constituye una recomendación de inversión.
+
+## 🛠️ Requisitos e Instalación
+
+Para ejecutar este proyecto de forma local, necesitas tener Python instalado y las siguientes librerías de análisis y visualización.
+
+Puedes instalar las dependencias ejecutando:
+
+```bash
+pip install yfinance pandas matplotlib pillow
